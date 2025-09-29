@@ -1,9 +1,10 @@
 {
   "name": "widget-3dx-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This module is designed to integrate frameworks with widgets from the 3DEXPERIENCE platform",
   "main": "src/index.js",
   "types": "src/index.d.ts",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
