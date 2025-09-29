@@ -34,7 +34,7 @@ try {
 
 console.log(`📦 Instalando dependências...`);
 process.chdir(appPath);
-execSync(`npm install @mui/material @emotion/react @emotion/styled widget-3dx`, { stdio: 'inherit' });
+execSync(`npm install @mui/material @emotion/react @emotion/styled widget-3dx-react`, { stdio: 'inherit' });
 
 console.log(`📄 Copiando arquivos de template...`);
 copyRecursive(templatePath, appPath);
