@@ -1,0 +1,47 @@
+{
+  "PlatformInfos": [
+    {
+      "platformId": "OnPremise",
+      "displayName": "onPremises",
+      "3DSwym": "https://swym-dev-3de.marcopolo.com.br/3dswym",
+      "3DCompass": "https://space-dev-3de.marcopolo.com.br/3dspace",
+      "3DPassport": "https://passport-dev-3de.marcopolo.com.br/3dpassport",
+      "3DSpace": "https://space-dev-3de.marcopolo.com.br/3dspace"
+    }
+  ],
+  "CompatibleApps": [
+    {
+      "className": "app-open-with",
+      "name": "ENOPRFI_AP",
+      "text": "Product Finder",
+      "icon": "",
+      "fonticon": null
+    },
+    {
+      "className": "app-widget app-open-with",
+      "name": "ENOR3D_AP",
+      "text": "3D Markup",
+      "icon": "",
+      "fonticon": null
+    },
+    {
+      "className": "app-widget app-open-with",
+      "name": "ENXDISC_AP",
+      "text": "3D Navigate",
+      "icon": "",
+      "fonticon": null
+    },
+    {
+      "className": "app-widget app-open-with",
+      "name": "X3DPLAW_AP",
+      "text": "3DPlay",
+      "icon": "",
+      "fonticon": null
+    },
+    {
+      "name": "more-apps",
+      "text": "Mais aplicativos",
+      "fonticon": "plus"
+    }
+  ]
+}

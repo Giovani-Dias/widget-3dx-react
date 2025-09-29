@@ -1,0 +1,15 @@
+{
+  "name": "widget-3dx-react",
+  "version": "1.0.1",
+  "description": "This module is designed to integrate frameworks with widgets from the 3DEXPERIENCE platform",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "widget-3dx-react": "./index.js"
+  },
+  "author": "Giovani Balda Dias",
+  "license": "MIT"
+}
