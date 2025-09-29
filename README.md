@@ -1,9 +1,9 @@
-# widget-3dx
+# widget-3dx-react
 
-This module facilitates the integration of external frameworks with widgets from the 3DEXPERIENCE platform, providing a streamlined setup for projects using Vite, React, TypeScript, and Material UI.
+This module facilitates the integration of external frameworks with widgets from the 3DEXPERIENCE platform, using Vite, React, TypeScript, and Material UI.
 
 ## 📦 Installation
 
 You can quickly scaffold a new project using the CLI:
 
-npx widget-3dx project-name
+npx widget-3dx-react project-name
