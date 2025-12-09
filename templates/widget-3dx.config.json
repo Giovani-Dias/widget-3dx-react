@@ -43,5 +43,20 @@
       "text": "Mais aplicativos",
       "fonticon": "plus"
     }
-  ]
+  ],
+  "UserInfo":{ 
+    "address": "An address for test purpose",
+    "city": "VelizyLand",
+    "email": "fulano@hotmail.com",
+    "enabled": true,
+    "firstname": "Fulano",
+    "id": 7,
+    "language": "pt",
+    "lastName": "Silva",
+    "login": "fulano",
+    "superUser": false,
+    "telephone": "",
+    "type": 3,
+    "properties": {}     
+  }
 }

@@ -1,6 +1,12 @@
+const config = __USER_CONFIG__ || {};
+const UserInfo = config.UserInfo || {} ;
+
 export class PlatformAPI {
     constructor() {
         this.events = [];
+    }
+    getUser() {
+        return UserInfo;
     }
     generateUUID() {
         return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
