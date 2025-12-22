@@ -28,5 +28,5 @@ export declare class WAFData {
     private handleRedirect;
     private request;
     authenticatedRequest(url: string, options?: WAFDATARequestOptions): WAFDataRequestResult;
-    proxyfiedRequest(url: string, options?: WAFDATARequestOptions): WAFDataRequestResult;
+    proxifiedRequest(url: string, options?: WAFDATARequestOptions): WAFDataRequestResult;
 }

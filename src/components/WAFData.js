@@ -135,8 +135,8 @@ export class WAFData {
     authenticatedRequest(url, options) {
         return this.request(url, options);
     }
-    proxyfiedRequest(url, options) {
-        console.warn("proxyfiedRequest not implemented in standalone context. Trying to fetch without proxification.");
+    proxifiedRequest(url, options) {
+        console.warn("proxifiedRequest not implemented in standalone context. Trying to fetch without proxification.");
         return this.request(url, options);
     }
 }
