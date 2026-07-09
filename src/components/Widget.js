@@ -47,6 +47,14 @@ export class Widget {
         }
         return this;
     }
+    addEventOnce(event, callback, bind, priority) {
+        const once = (...args) => {
+            delete this.events[event];
+            callback(...args);
+        };
+        this.addEvent(event, once, bind, priority);
+        return this;
+    }
     dispatchEvent(event, args, bind) {
         const cb = this.events[event];
         if (!cb)

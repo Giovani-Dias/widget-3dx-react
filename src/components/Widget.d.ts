@@ -40,6 +40,7 @@ export declare class Widget {
     private loadPreferences;
     private savePrefsLocalStorage;
     addEvent<T extends keyof WidgetEvent>(event: T, callback: WidgetEvent[T], bind?: unknown, priority?: number): this;
+    addEventOnce<T extends keyof WidgetEvent>(event: T, callback: WidgetEvent[T], bind?: unknown, priority?: number): this;
     dispatchEvent(event: keyof WidgetEvent, args?: unknown[], bind?: unknown): this | undefined;
     addPreference(pref: Preference): void;
     getPreference(prefName: string): Preference;
